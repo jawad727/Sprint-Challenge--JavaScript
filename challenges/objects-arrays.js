@@ -97,10 +97,10 @@ Once you have the new array created, sort the universities alphabetically and lo
 
 const universities = [
   graduates.map(function(item){
-  return item["university"]})
+  return item["university"]}).sort()
   ];
 
-console.log(universities.sort());
+console.log(universities);
 
 /* Request 2: Create a new array called contactInfo that contains both first name and email of each student. 
 
